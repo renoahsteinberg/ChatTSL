@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+    <script src="/chat.js" defer></script>
+</head>
+<body>
+    <h1>Chat App</h1>
+    <div id="chat-container">
+        <div id="chat-window">
+            <h3>Public Chat</h3>
+            <ul id="messages"></ul>
+            <input type="text" id="myMessage" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <div id="user-list-container">
+            <h3>Connected Users</h3>
+            <ul id="userList"></ul>
+        </div>
+        <div id="private-chats-container">
+        </div>
+    </div>
+</body>
+</html>

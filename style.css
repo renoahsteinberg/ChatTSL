@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#chat-window, #user-list-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+#chat-window {
+    flex: 1;
+    min-width: 300px;
+}
+
+#user-list-container {
+    width: 200px;
+}
+
+#userList li {
+    padding: 5px;
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#userList li:hover {
+    background-color: #ddd;
+}
+
+#messages, #privateMessages {
+    list-style-type: none;
+    padding: 0;
+}
+
+#messages li, .private-chat-window ul li {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#private-chats-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.private-chat-window {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.private-chat-window h3 {
+    margin-top: 0;
+}
