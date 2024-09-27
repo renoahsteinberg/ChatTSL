@@ -1,0 +1,19 @@
+{
+  "name": "chattsl",
+  "version": "0.0.1",
+  "description": "Electron Based ChatApp",
+  "main": "ChatTSL/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renoahsteinberg/ChatTSL.git"
+  },
+  "author": "Noah Steinberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renoahsteinberg/ChatTSL/issues"
+  },
+  "homepage": "https://github.com/renoahsteinberg/ChatTSL#readme"
+}
